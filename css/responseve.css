@@ -487,20 +487,6 @@
   .footer_social-image {
     padding: 0 28px;
   }
-  .nav_footer-adreess::before {
-    content: " ";
-    display: block;
-    position: absolute;
-    background-image: url(../assets/images/logo.png);
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    background-size: cover;
-    left: 17px;
-    top: 190px;
-    width: 330px;
-    height: 330px;
-    opacity: 0.1;
-  }
 
   /* our team  */
   .out-image_map .text {
@@ -518,5 +504,21 @@
   .title_description {
     font-size: 12px;
     line-height: 80%;
+  }
+}
+@media (max-width: 500px) {
+  .nav_footer-adreess::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    background-image: url(../assets/images/logo.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    left: 17px;
+    top: 190px;
+    width: 330px;
+    height: 330px;
+    opacity: 0.1;
   }
 }

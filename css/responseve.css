@@ -161,17 +161,22 @@
     flex-direction: column;
     gap: 30px;
   }
+  .navbar-collapse ul .nav-link_width {
+    width: 100%;
+  }
   .navbar-collapse ul .nav-item a {
     border: 1px solid var(--white-color);
-    padding: 11px 140px;
+    padding: 13px 0;
     border-radius: 8px;
+    display: block;
   }
   .navbar-collapse ul .nav-item_us a {
     background-color: var(--white-color);
     border: 1px solid var(--blue-color);
     color: var(--blue-color);
-    padding: 13px 125px;
+    padding: 13px 0;
     border-radius: 8px;
+    display: block;
   }
   /* end  header  */
   .our_image-img,
